@@ -25,7 +25,7 @@ export default class DeliveryRepgen extends Component {
       if (res.data.success) {
         this.setState({
           posts: res.data.existingPosts
-        })
+        });
 
         console.log(this.state.posts);
       }
