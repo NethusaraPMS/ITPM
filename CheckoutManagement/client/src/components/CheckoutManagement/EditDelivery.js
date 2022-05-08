@@ -17,7 +17,7 @@ const phoneRegex = RegExp(
     Object.values(formErrors).forEach(val => {
         val.length > 0 && (valid = false)
     });
-    return valid;
+    return valid
 };
 
 
