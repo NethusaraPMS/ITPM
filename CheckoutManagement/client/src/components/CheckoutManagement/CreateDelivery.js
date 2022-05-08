@@ -6,7 +6,9 @@ const emailRegex = RegExp(
     /^[a-z0-9.!#$%&â€™+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)$/
   );
 
-
+const phoneRegex = RegExp(
+    /^[0-9]{10,15}$/
+  );
 
   const formValid = formErrors =>{
     let valid = true;
