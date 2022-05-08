@@ -14,9 +14,7 @@ export default class HomeDelivery extends Component {
   }
 
 
-  componentDidMount() {
-    this.retrievePosts();
-  }
+
 
   retrievePosts() {
     axios.get("/d_detail").then(res => {
