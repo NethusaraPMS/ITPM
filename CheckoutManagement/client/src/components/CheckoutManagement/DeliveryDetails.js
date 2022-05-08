@@ -12,7 +12,7 @@ export default class DeliveryDetails extends Component{
         };
     }
 
-    componentDidMount()
+    componentDidMount(){
 
         const id = this.props.match.params.id;
 
